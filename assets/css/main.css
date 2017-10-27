@@ -1,0 +1,49 @@
+:root {
+  --base: #f5ecdf;
+}
+
+.aa {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--base);
+  font-family: "Playfair Display";
+  line-height: 1.45;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+}
+
+.logo {
+  background: center / contain no-repeat url(/img/logo.svg);
+  height: 250px;
+  text-indent: -9999em;
+}
+
+.button {
+  background: linear-gradient(to top, #008c98, #44aeb9);
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
+  transition: all .2s;
+}
+
+.button:hover {
+  box-shadow: 0 10px 60px rgba(0, 0, 0, 0.5);
+  opacity: 0.9;
+  transform: scale(1.05);
+}
+
+.link {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (min-width: 30em) {
+}
